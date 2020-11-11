@@ -1,0 +1,533 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	overflow-x: hidden;
+}
+
+
+/*<!-- Menuber -->*/
+.bg {
+	background-color: #000 !important;
+}
+.logo{
+	width: 200px;
+}
+.bars{
+	color: #091978;
+}
+.text-white-50:hover {
+	color: #091978 !important;
+	border-top: 1px solid #091978;
+}
+
+
+
+/*Home*/
+.banner{
+	display: flex;
+	background-image: url('img/Banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*background-attachment: fixed;*/
+	height: 120vh;
+    color: #fff;
+    min-height: 600px;
+}
+.banner h1{
+	padding-top: 350px;
+	font-weight: bold;
+}
+.banner h2 span{
+	color: #091978;
+}
+.designer{
+	color: #091978;
+}
+.banner button{
+	background-color: #091978;
+	color: #fff;
+	font-size: 24px;
+}
+.banner button:hover {
+	background-color: transparent;
+	border: 1px solid #091978;
+	color: #fff;
+}
+
+/*about*/
+.about{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.text1{
+	font-weight: bold;
+}
+.text2{
+	color: #091978;
+	padding-bottom: 30px;
+}
+.about img{
+	border: 16px solid #0b1e94;
+	border-radius: 25px;
+	/*height: 400px;
+	width: 300px;*/
+}
+.a1{
+	border: none;
+}
+.a2{
+	border: none;
+}
+.about h3{
+	font-weight: bold;
+}
+.about h3 span{
+	color: #091978;
+}
+.about button{
+	background-color: #091978;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 10px;
+}
+.about button:hover{
+	background-color: transparent;
+	border: 1px solid #091978;
+	color: #091978;
+}
+
+
+/*Experience and Education*/
+
+
+.experience{
+	background-color: #000;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.ex{
+	background-color: #000;
+	border: none;;
+}
+.ex h1{
+	border-bottom: 1px solid #091978;
+	font-weight: bold;
+	border-bottom-width: medium;
+}
+.text5{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.text6{
+	color: #fff;
+	font-size: 12px;
+}
+.text7{
+	color: #fff;
+	font-size: 15px;
+}
+.ex i{
+	color: #091978;
+}
+
+
+/*service*/
+.sv{
+	font-weight: bold;
+}
+.hve{
+	color: #091978;
+}
+.service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.sr{
+	border: none;
+	background-color: #fff;
+}
+.sr:hover{
+	background-color: #091978;
+	color: #fff;
+}
+
+
+
+/*Skill*/
+
+.Skill{
+	background-color: #000;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.Skill h1{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+.Skill h4{
+	padding-bottom: 15px;
+	color: #fff
+}
+.sk{
+	list-style: none;
+	background-color: #000;
+}
+.bar{
+	background: #fff;
+	display: block;
+	height: 8px;
+	width: 100%
+	border: 1px solid #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 8px #091978;
+}
+.bar span{
+	height: 8px;
+	float: left;
+	background: linear-gradient(to left, #101a63,#041edb);
+}
+.html{
+	width: 94%;
+	animation: html 3s;
+}
+@keyframes html{
+	0%{width: 0%;}
+	100%{width: 94%;}
+}
+.html1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 65px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+}
+.css{
+	width: 96%;
+	animation: css 3s;
+}
+@keyframes css{
+	0%{width: 0%;}
+	100%{width: 96%;}
+}
+.css1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 140px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+}
+.bootstrap{
+	width: 90%;
+	animation: bootstrap 3s;
+}
+@keyframes bootstrap{
+	0%{width: 0%;}
+	100%{width: 90%;}
+}
+.bootstrap1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 215px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.jquery{
+	width: 69%;
+	animation: jquery 3s;
+}
+@keyframes jquery{
+	0%{width: 0%;}
+	100%{width: 69%;}
+}
+.jquery1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 290px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.javascript{
+	width: 75%;
+	animation: javascript 3s;
+}
+@keyframes javascript{
+	0%{width: 0%;}
+	100%{width: 75%;}
+}
+.javascript1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 365px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.PHP{
+	width: 50%;
+	animation: PHP 3s;
+}
+@keyframes PHP{
+	0%{width: 0%;}
+	100%{width: 50%;}
+}
+.PHP1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 445px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.figma{
+	width: 95%;
+	animation: figma 3s;
+}
+@keyframes figma{
+	0%{width: 0%;}
+	100%{width: 95%;}
+}
+.figma1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 65px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.Photoshop{
+	width: 88%;
+	animation: Photoshop 3s;
+}
+@keyframes Photoshop{
+	0%{width: 0%;}
+	100%{width: 88%;}
+}
+.Photoshop1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 140px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+}
+.illustrator{
+	width: 85%;
+	animation: illustrator 3s;
+}
+@keyframes illustrator{
+	0%{width: 0%;}
+	100%{width: 85%;}
+}
+.illustrator1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 215px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.xd{
+	width: 70%;
+	animation: xd 3s;
+}
+@keyframes xd{
+	0%{width: 0%;}
+	100%{width: 70%;}
+}
+.xd1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 290px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.WordPress{
+	width: 95%;
+	animation: WordPress 3s;
+}
+@keyframes WordPress{
+	0%{width: 0%;}
+	100%{width: 95%;}
+}
+.WordPress1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 365px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+.TYPESCRIPT{
+	width: 75%;
+	animation: TYPESCRIPT 3s;
+}
+@keyframes TYPESCRIPT{
+	0%{width: 0%;}
+	100%{width: 75%;}
+}
+.TYPESCRIPT1{
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 445px;
+	z-index: 1;
+	color: #fff;
+	background: linear-gradient(to left, #101a63,#041edb); 
+	
+}
+
+
+/*Portfolio*/
+
+
+.Portfolio{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.Portfolio h1{
+	font-weight: bold;
+}
+
+.fd{
+	width: 600px;
+	height: 300px;
+}
+
+.box{
+	position: relative;
+}
+.shade{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #091978;
+  top: 0;
+  opacity: 0;
+  transition: all 1s ease;
+  overflow: hidden;
+  /*z-index: 999;*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.box:hover .shade{
+  opacity: 0.9;
+}
+
+
+
+/*contact*/
+
+
+.contact{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #000;
+}
+.contact h1{
+	color: #fff;
+	font-weight: bold;
+}
+.tx1{
+	background-color: #000;
+}
+.sd{
+	background-color: #091978;
+	border: none;
+	opacity: 0.4;
+}
+.ti{
+	color: #fff;
+}
+.contact button{
+	background-color: #091978;
+	color: #fff;
+	font-size: 14px;
+}
+.contact button:hover{
+	background-color: transparent;
+	border: 1px solid #091978;
+	color: #fff;
+}
+
+/*Copyright*/
+
+.copy{
+	background-color: #031430;
+}
+.shihab{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+
+/*Social bar*/
+
+.social{
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	transform: translateY(-50%);
+}
+.social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+	background-color: #fff;
+	/*border: 1px solid #cbcbcb;*/
+	border-radius: 10px 0px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,2);
+	text-decoration: none;
+}
+.social a i{
+	color: #091978;
+	font-size: 20px;
+}
+.social a:hover{
+	background-color: #2b2b2b;
+	transition: all ease 0.5s;
+} 
